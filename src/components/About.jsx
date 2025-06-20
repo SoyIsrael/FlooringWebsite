@@ -13,7 +13,7 @@ export default function About() {
         <div className="lg:w-1/2">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
           <p className="text-gray-700 mb-4">
-            We're a familssssy-run flooring business built on craftsmanship,
+            We're a family-run flooring business built on craftsmanship,
             honesty, and care. After years of working in home renovation, we
             decided to bring high-quality flooring services directly to our
             community.
