@@ -3,8 +3,12 @@ export default function Navbar() {
     <nav className="bg-white shadow">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-3">
-          <img src="logo.png" className="w-12 h-12 object-contain" alt="FloorCo logo" />
-          <h1 className="text-2xl font-bold text-gray-800">FloorCo</h1>
+          <img
+            src="logotextless.png"
+            className="w-12 h-12 object-contain"
+            alt="RaicesFlooring logo"
+          />
+          <h1 className="text-2xl font-bold text-gray-800">RaicesFlooring</h1>
         </div>
         <div className="space-x-6">
           <a href="#home" className="text-gray-600 hover:text-blue-600">
