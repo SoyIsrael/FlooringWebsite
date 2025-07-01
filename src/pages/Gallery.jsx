@@ -5,12 +5,8 @@ import Masonry from "react-masonry-css";
 export default function Gallery() {
   const images = [
     "/gallery/image1.jpg",
-    "/gallery/example1.jpg",
-    "/gallery/example2.jpg",
-    "/gallery/example4.jpg",
-    "/gallery/example5.jpg",
-    "/gallery/example6.jpg",
-
+    "/gallery/image2.jpg",
+    "/gallery/image3.jpg",
     // Add more as needed
   ];
 
