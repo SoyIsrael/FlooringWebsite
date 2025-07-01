@@ -41,7 +41,7 @@ export default function MobileMenu() {
             </DialogDescription>
             <button
               onClick={() => setOpen(false)}
-              className="absolute top-6 right-4"
+              className="absolute top-8 sm:top-4 right-4"
             >
               <X className="h-10 w-10 text-black" />
             </button>
