@@ -21,7 +21,7 @@ export default function MobileMenu() {
   ];
 
   return (
-    <nav className="lg:hidden px-4 py-3">
+    <nav className="lg:hidden px-4 py-">
       <div className="flex justify-between items-center">
         {/* Menu Button */}
         <Dialog open={open} onOpenChange={setOpen}>
@@ -41,7 +41,7 @@ export default function MobileMenu() {
             </DialogDescription>
             <button
               onClick={() => setOpen(false)}
-              className="absolute top-4 right-4"
+              className="absolute top-6 right-4"
             >
               <X className="h-10 w-10 text-black" />
             </button>
