@@ -19,6 +19,9 @@ export default function ContactForm() {
           Have questions or want a flooring quote? Fill out the form and we’ll
           get back to you.
         </p>
+        <p className="text-sm text-gray-500 text-center mt-2">
+          Your quote is free — no pressure, no compromise.
+        </p>
       </div>
 
       <form

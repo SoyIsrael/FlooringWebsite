@@ -14,6 +14,12 @@ const services = [
     description: "Custom tile flooring for kitchens, bathrooms, and more.",
     image: "/tile.jpg",
   },
+  {
+    title: "Laminate Flooring",
+    description:
+      "Stylish and cost-effective laminate flooring with a natural look.",
+    image: "/laminate.jpg", // ensure this image is in the /public directory
+  },
 ];
 
 export default function Services() {
@@ -22,7 +28,11 @@ export default function Services() {
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
         Our Services
       </h2>
-      <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div
+        className={`max-w-6xl mx-auto grid gap-8 ${
+          services.length % 3 === 0 ? "sm:grid-cols-3" : "sm:grid-cols-2"
+        }`}
+      >
         {services.map((service, index) => (
           <div
             key={index}
