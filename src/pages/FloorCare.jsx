@@ -11,7 +11,7 @@ export default function FloorCare() {
           </h1>
           <p className="text-gray-600 text-lg mb-10">
             Keep your floors looking beautiful with our expert care tips —
-            before and after installation. Hola ma
+            before and after installation.
           </p>
         </div>
 
