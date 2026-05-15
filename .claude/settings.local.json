@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run dev)",
+      "PowerShell(node \"node_modules/vite/bin/vite.js\")"
+    ]
+  }
+}

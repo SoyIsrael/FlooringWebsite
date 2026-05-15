@@ -33,7 +33,7 @@ export default function Navbar() {
         {/* Desktop Menu (Hidden on Mobile) */}
         <div className="space-x-6 hidden lg:flex">
           {navItems.map((item) =>
-            item.href.startsWith("#") ? (
+            item.href.includes("#") ? (
               <a
                 key={item.name}
                 href={item.href}

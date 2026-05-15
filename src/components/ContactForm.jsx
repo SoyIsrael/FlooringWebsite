@@ -22,6 +22,20 @@ export default function ContactForm() {
         <p className="text-sm text-gray-500 text-center mt-2">
           Your quote is free — no pressure, no compromise.
         </p>
+        <div className="mt-6 flex flex-col sm:flex-row sm:justify-center sm:gap-8 gap-2 text-gray-700">
+          <a
+            href="tel:+16366340064"
+            className="hover:text-blue-600 transition"
+          >
+            636-634-0064
+          </a>
+          <a
+            href="mailto:raicesflooring@gmail.com"
+            className="hover:text-blue-600 transition"
+          >
+            raicesflooring@gmail.com
+          </a>
+        </div>
       </div>
 
       <form
