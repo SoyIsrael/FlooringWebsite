@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import { Phone, Mail } from "lucide-react";
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("movdzjrk");
@@ -22,17 +23,19 @@ export default function ContactForm() {
         <p className="text-sm text-gray-500 text-center mt-2">
           Your quote is free — no pressure, no compromise.
         </p>
-        <div className="mt-6 flex flex-col sm:flex-row sm:justify-center sm:gap-8 gap-2 text-gray-700">
+        <div className="mt-6 flex flex-col sm:flex-row sm:justify-center items-center gap-3">
           <a
             href="tel:+16366340064"
-            className="hover:text-blue-600 transition"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 font-medium hover:bg-blue-100 hover:text-blue-800 transition"
           >
+            <Phone className="h-4 w-4" />
             636-634-0064
           </a>
           <a
             href="mailto:raicesflooring@gmail.com"
-            className="hover:text-blue-600 transition"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 font-medium hover:bg-blue-100 hover:text-blue-800 transition"
           >
+            <Mail className="h-4 w-4" />
             raicesflooring@gmail.com
           </a>
         </div>
